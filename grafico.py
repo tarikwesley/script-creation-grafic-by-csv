@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 
 # === CONFIGURE AQUI CADA CURVA QUE QUISER PLOTAR ===
 curvas = [
-    # {"arquivo": "ofdm.csv", "label": "OFDM", "cor": "blue"},
+    # {"arquivo": "1000-simbolos/ofdm.csv", "label": "OFDM", "cor": "blue"},
     # {"arquivo": "ofdm-ref.csv", "label": "OFDM-REF", "cor": "green"},
-    {"arquivo": "pam-2.csv", "label": "PAM-2", "cor": "orange"},
-    {"arquivo": "pam-4.csv", "label": "PAM-4", "cor": "green"},
-    {"arquivo": "pam-8.csv", "label": "PAM-8", "cor": "red"},
-    {"arquivo": "pam-16.csv", "label": "PAM-16", "cor": "purple"},
+    {"arquivo": "100000-simbolos/pam-2.csv", "label": "PAM-2", "cor": "orange"},
+    {"arquivo": "100000-simbolos/pam-4.csv", "label": "PAM-4", "cor": "green"},
+    {"arquivo": "100000-simbolos/pam-8.csv", "label": "PAM-8", "cor": "red"},
+    {"arquivo": "100000-simbolos/pam-16.csv", "label": "PAM-16", "cor": "purple"},
     {"arquivo": "pam-2-ref.csv", "label": "PAM-2-REF", "cor": "brown"},
     {"arquivo": "pam-4-ref.csv", "label": "PAM-4-REF", "cor": "black"},
     {"arquivo": "pam-8-ref.csv", "label": "PAM-8-REF", "cor": "gold"},
